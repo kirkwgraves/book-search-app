@@ -1,0 +1,25 @@
+{
+  "name": "modules",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Kirk Walker Graves <graves.kirk@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/kirkwgraves/book-search-app",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material": "master",
+    "angular-ui": "^0.4.0",
+    "angular": "^1.4.9",
+    "jquery": "^2.2.0",
+    "angular-ui-router": "^0.2.17"
+  }
+}
