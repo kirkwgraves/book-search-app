@@ -1,4 +1,4 @@
-var app = angular.module('godot', ['ui-router', 'ngMaterial']);
+var app = angular.module('BooksApp', ['ui.router', 'ui.bootstrap', 'ngMaterial']);
 
 app.config(['$stateProvider', '$urlRouterProvider', '$mdThemingProvider',
 	function($stateProvider, $urlRouterProvider, $mdThemingProvider) {
@@ -8,6 +8,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$mdThemingProvider',
 
 		.state('search', {
 			url: '/search',
-			templateUrl: 'partials/search.html'
+			templateUrl: 'partials/search.html',
+			controller: 'SearchCtrl'
 		});
 }]);
